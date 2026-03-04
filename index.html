@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Junwen Gu | 顾俊文">
+    <meta name="description" content="Junwen Gu's personal homepage - Ph.D. student at Institute of Automation, CAS, focusing on underwater bionic robots.">
+    <meta name="keywords" content="Junwen Gu, 顾俊文, robotics, underwater robot, bionic robot, CAS">
+    <title>Junwen Gu | 顾俊文</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/LetterV.svg">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="header-content">
+                <div class="header-text">
+                    <h1 class="name">Junwen Gu | 顾俊文</h1>
+                    
+                    <div class="bio">
+                        <p>
+                            I am a Ph.D. candidate at the Key Laboratory of Cognition and Decision Intelligence for Complex Systems, <a href="http://english.ia.cas.cn/" target="_blank" rel="noopener noreferrer">Institute of Automation, Chinese Academy of Sciences (CASIA)</a>, where I have been advised by Prof. <a href="https://people.ucas.ac.cn/~wuzhengxing" target="_blank" rel="noopener noreferrer">Zhengxin Wu</a> since 2022. Previously, I received my B.Eng. degree in Automation from the <a href="https://en.ustb.edu.cn/" target="_blank" rel="noopener noreferrer">University of Science and Technology Beijing (USTB)</a>.
+                        </p>
+                        <p>
+                            My research primarily focuses on underwater robotics, where I strive to explore full-stack technologies and develop advanced robotic systems from a holistic perspective. I am currently exploring <strong>Embodied AI</strong> (RL and VLA) to enhance robotic autonomy and investigating how system architectures shape intelligence across broader domains, including automated floor plan design.
+                        </p>
+                    </div>
+                </div>
+                <div class="header-photo">
+                    <img src="images/personal_pic.jpg" alt="Junwen Gu" class="profile-photo">
+                </div>
+            </div>
+            
+            <!-- Contact Links - Below bio and photo -->
+            <div class="contact-links">
+                <a href="mailto:gujunwen2022@ia.ac.cn" title="Email">
+                    <i class="fas fa-envelope icon"></i>
+                    Email
+                </a>
+                <a href="https://scholar.google.com/citations?user=RLmZMP8AAAAJ&hl=en" target="_blank" rel="noopener noreferrer" title="Google Scholar">
+                    <i class="fas fa-graduation-cap icon"></i>
+                    Google Scholar
+                </a>
+                <a href="https://www.researchgate.net/profile/Junwen-Gu-3" target="_blank" rel="noopener noreferrer" title="ResearchGate">
+                    <i class="fab fa-researchgate icon"></i>
+                    ResearchGate
+                </a>
+                <a href="https://www.linkedin.com/in/俊文-顾-26261a390/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                    <i class="fab fa-linkedin icon"></i>
+                    LinkedIn
+                </a>
+                <span class="dropdown">
+                    <a href="#" class="dropdown-toggle" title="CV">
+                        <i class="fas fa-file-alt icon"></i>
+                        CV
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="files/CV_JunwenGu_EN.pdf" target="_blank">English</a>
+                        <a href="files/CV_JunwenGu_CN.pdf" target="_blank">中文</a>
+                    </div>
+                </span>
+                <a href="https://github.com/VincentGu2000" target="_blank" rel="noopener noreferrer" title="GitHub">
+                    <i class="fab fa-github icon"></i>
+                    GitHub
+                </a>
+            </div>
+        </header>
+
+        <!-- Education Section -->
+        <section class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="education-item">
+                <img src="images/logos/cas_logo.png" alt="CAS Logo" class="education-logo" onerror="this.src='images/logos/placeholder_logo.svg'">
+                <div class="education-divider"></div>
+                <div class="education-content">
+                    <h3 class="education-school">Institute of Automation, Chinese Academy of Sciences</h3>
+                    <p class="education-degree">Doctor of Philosophy - PhD, Robotics</p>
+                    <p class="education-date">Sept 2022 - June 2027 (Expected)</p>
+                </div>
+            </div>
+            <div class="education-item">
+                <img src="images/logos/ustb_logo.png" alt="USTB Logo" class="education-logo" onerror="this.src='images/logos/placeholder_logo.svg'">
+                <div class="education-divider"></div>
+                <div class="education-content">
+                    <h3 class="education-school">University of Science and Technology Beijing</h3>
+                    <p class="education-degree">Bachelor of Engineering - BE, Automation</p>
+                    <p class="education-date">Sept 2018 - June 2022</p>
+                    <p class="education-honors">
+                        TOP 5% |
+                        Dean's Medal |
+                        National Scholarship (three times)
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research Section -->
+        <section class="section">
+            <h2 class="section-title">Research</h2>
+            <p class="publication-note">
+                <sup>*</sup> indicates equal contribution, <sup>†</sup> indicates corresponding author
+            </p>
+
+            <!-- First-Author Publications -->
+            <h3 class="subsection-title">First-Author Publications</h3>
+            
+            <!-- IEEE TRO Paper -->
+            <div class="publication-item" onmouseout="tro_stop()" onmouseover="tro_start()">
+                <div class="publication-image">
+                    <div class="image-wrapper">
+                        <div class="image-hover" id="tro_image">
+                            <img src="images/papers/tro_fishtail.gif" alt="TRO Paper" width="230" height="165" onerror="this.src='images/papers/tro_fishtail.png'">
+                        </div>
+                        <img src="images/papers/tro_fishtail.png" alt="TRO Paper" width="230" height="165" class="image-static" onerror="this.src='images/papers/placeholder.svg'">
+                    </div>
+                </div>
+                <div class="publication-content">
+                    <a href="https://ieeexplore.ieee.org/document/10758228" target="_blank" rel="noopener noreferrer">
+                        <span class="paper-title">Deformation control and thrust analysis of a flexible fishtail with muscle-like actuation</span>
+                    </a>
+                    <br>
+                    <span class="paper-authors"><strong>Junwen Gu*</strong>, Jian Wang*, Zhijie Liu, Min Tan, Junzhi Yu, Zhengxin Wu†</span>
+                    <br>
+                    <span class="paper-venue"><em>IEEE Transactions on Robotics (TRO)</em>, 41, 159-179, 2025</span>
+                    <br>
+                    <span class="paper-links">
+                        <a href="https://events.infovaya.com/uploads/documents/pdfviewer/51/fb/201938-0171.pdf " target="_blank" rel="noopener noreferrer">Paper</a>
+                        <!-- Reserved for WeChat article links -->
+                        / <a href="https://mp.weixin.qq.com/s/I349045hH2_6LQkfCOxqug" target="_blank" rel="noopener noreferrer">中文介绍</a>
+                    </span>
+                    <p class="paper-abstract">
+                        We developed a flexible fishtail actuated by artificial muscles. Through a combination of PDE-based modeling and DRL controller, the system achieves real-time deformation control with up to a 203% propulsion enhancement.
+                    </p>
+                </div>
+            </div>
+
+            <!-- arXiv USIM/U0 Paper -->
+            <div class="publication-item" onmouseout="usim_stop()" onmouseover="usim_start()">
+                <div class="publication-image">
+                    <div class="image-wrapper">
+                        <div class="image-hover" id="usim_image">
+                            <img src="images/papers/usim_u0.gif" alt="USIM/U0 Paper" width="230" height="165" onerror="this.src='images/papers/usim_u0.png'">
+                        </div>
+                        <img src="images/papers/usim_u0.png" alt="USIM/U0 Paper" width="230" height="165" class="image-static" onerror="this.src='images/papers/placeholder.svg'">
+                    </div>
+                </div>
+                <div class="publication-content">
+                    <a href="https://vincentgu2000.github.io/u0project/" target="_blank" rel="noopener noreferrer">
+                        <span class="paper-title">USIM and U0: A Vision-Language-Action Dataset and Model for General Underwater Robots</span>
+                    </a>
+                    <br>
+                    <span class="paper-authors"><strong>Junwen Gu*</strong>, Zhiheng Wu*, P. Si, S. Qiu, Yukai Feng, L. Sun, L. Luo, L. Yu, Jian Wang†, Zhengxin Wu</span>
+                    <br>
+                    <span class="paper-venue"><em>arXiv preprint</em> arXiv:2510.07869, 2025</span>
+                    <br>
+                    <span class="paper-links">
+                        <a href="https://arxiv.org/pdf/2510.07869" target="_blank" rel="noopener noreferrer">Paper</a>
+                        / <a href="https://vincentgu2000.github.io/u0project/" target="_blank" rel="noopener noreferrer">Project Page</a>
+                    </span>
+                    <p class="paper-abstract">
+                        We present USIM, a underwater VLA dataset across 20 diverse tasks, and U0, a VLA model achieving an 80% success rate in underwater tasks including inspection, navigation, and tracking.
+                    </p>
+                </div>
+            </div>
+
+            <!-- CBS 2024 Paper -->
+            <div class="publication-item" onmouseout="cbs_stop()" onmouseover="cbs_start()">
+                <div class="publication-image">
+                    <div class="image-wrapper">
+                        <div class="image-hover" id="cbs_image">
+                            <img src="images/papers/cbs2024.gif" alt="CBS 2024 Paper" width="230" height="165" onerror="this.src='images/papers/cbs2024.png'">
+                        </div>
+                        <img src="images/papers/cbs2024.png" alt="CBS 2024 Paper" width="230" height="165" class="image-static" onerror="this.src='images/papers/placeholder.svg'">
+                    </div>
+                </div>
+                <div class="publication-content">
+                    <a href="https://ieeexplore.ieee.org/document/10860417" target="_blank" rel="noopener noreferrer">
+                        <span class="paper-title">Learning to Turn: Deformation Control of a Novel Flexible Fishtail Actuated by Artificial Muscles</span>
+                    </a>
+                    <br>
+                    <span class="paper-authors"><strong>Junwen Gu</strong>, Yukai Feng, Zhengxin Wu, Jian Wang†, Junzhi Yu</span>
+                    <br>
+                    <span class="paper-venue"><em>2024 IEEE International Conference on Cyborg and Bionic Systems (CBS)</em>, 171-176</span>
+                    <br>
+                    <span class="paper-links">
+                        <a href="https://ieeexplore.ieee.org/document/10860417" target="_blank" rel="noopener noreferrer">Paper</a>
+                    </span>
+                    <p class="paper-abstract">
+                        This work presents a flexible fishtail using SAC reinforcement learning to optimize turning agility. It enables adjustable compliance for enhanced fluid interactivity.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Co-authored Publications -->
+            <h3 class="subsection-title">Co-authored Publications</h3>
+
+            <!-- arXiv DRIP Paper -->
+
+            <!-- IEEE TIE Paper -->
+            <div class="publication-item" onmouseout="tie_stop()" onmouseover="tie_start()">
+                <div class="publication-image">
+                    <div class="image-wrapper">
+                        <div class="image-hover" id="tie_image">
+                            <img src="images/papers/tie_multirobot.gif" alt="TIE Paper" width="230" height="165" onerror="this.src='images/papers/tie_multirobot.png'">
+                        </div>
+                        <img src="images/papers/tie_multirobot.png" alt="TIE Paper" width="230" height="165" class="image-static" onerror="this.src='images/papers/placeholder.svg'">
+                    </div>
+                </div>
+                <div class="publication-content">
+                    <a href="https://ieeexplore.ieee.org/document/10844952" target="_blank" rel="noopener noreferrer">
+                        <span class="paper-title">Decentralized multirobotic fish pursuit control with attraction-enhanced reinforcement learning</span>
+                    </a>
+                    <br>
+                    <span class="paper-authors">Yukai Feng, Zhengxin Wu†, Jian Wang, <strong>Junwen Gu</strong>, F. Yu, Junzhi Yu, Min Tan</span>
+                    <br>
+                    <span class="paper-venue"><em>IEEE Transactions on Industrial Electronics (TIE)</em>, 72 (8), 8290-8300, 2025</span>
+                    <br>
+                    <span class="paper-links">
+                        <a href="https://ieeexplore.ieee.org/document/10844952" target="_blank" rel="noopener noreferrer">Paper</a>
+                    </span>
+                    <p class="paper-abstract">
+                        We proposed a decentralized cooperative pursuit strategy for multi-robotic fish using curriculum learning. The algorithm enables adaptive coordination in complex underwater environments.
+                    </p>
+                </div>
+            </div>
+
+            <!-- ICCSS 2021 Paper -->
+            <div class="publication-item" onmouseout="iccss_stop()" onmouseover="iccss_start()">
+                <div class="publication-image">
+                    <div class="image-wrapper">
+                        <div class="image-hover" id="iccss_image">
+                            <img src="images/papers/iccss2021.gif" alt="ICCSS 2021 Paper" width="230" height="165" onerror="this.src='images/papers/iccss2021.png'">
+                        </div>
+                        <img src="images/papers/iccss2021.png" alt="ICCSS 2021 Paper" width="230" height="165" class="image-static" onerror="this.src='images/papers/placeholder.svg'">
+                    </div>
+                </div>
+                <div class="publication-content">
+                    <a href="https://ieeexplore.ieee.org/document/9721970" target="_blank" rel="noopener noreferrer">
+                        <span class="paper-title">Observer-based feedback control for linear parabolic PDEs with quantized input</span>
+                    </a>
+                    <br>
+                    <span class="paper-authors">Xuena Zhao, <strong>Junwen Gu</strong>, Zhijie Liu, Wei He</span>
+                    <br>
+                    <span class="paper-venue"><em>2021 8th International Conference on Information, Cybernetics, and Computational Social Systems (ICCSS)</em></span>
+                    <br>
+                    <span class="paper-links">
+                        <a href="https://ieeexplore.ieee.org/document/9721970" target="_blank" rel="noopener noreferrer">Paper</a>
+                    </span>
+                    <p class="paper-abstract">
+                        We developed a PDE observer and quantization feedback compensator for linear parabolic PDE systems. The framework ensures exponential stability, validated through Lyapunov-based proofs and numerical simulations.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Copyright © 2022-2026 Junwen Gu. All rights reserved.</p>
+            <p class="last-updated">Last updated: February 2026</p>
+        </footer>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
