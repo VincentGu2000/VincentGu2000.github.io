@@ -4,6 +4,11 @@
  */
 
 document.addEventListener('DOMContentLoaded', function() {
+    // Initialize internationalization
+    if (typeof I18n !== 'undefined') {
+        I18n.init();
+    }
+    
     // Initialize publication image hover effects
     initPublicationHovers();
     

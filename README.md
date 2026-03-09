@@ -17,17 +17,23 @@ personal-website/
 │   └── main.js             # JavaScript interactions
 ├── images/
 │   ├── personal_pic.jpg    # Profile photo
-│   └── papers/             # Publication images (add your paper thumbnails here)
+│   ├── LetterV.svg         # Favicon
+│   ├── logos/              # Institution logos
+│   │   ├── cas_logo.png
+│   │   ├── ustb_logo.png
+│   │   └── placeholder_logo.svg
+│   └── papers/             # Publication images
 │       ├── tro_fishtail.png
-│       ├── tro_fishtail.gif
+│       ├── tro_fishtail.gif  (optional, for hover effect)
 │       ├── usim_u0.png
-│       ├── usim_u0.gif
+│       ├── usim_u0.gif        (optional, for hover effect)
 │       ├── cbs2024.png
-│       ├── cbs2024.gif
+│       ├── cbs2024.gif        (optional, for hover effect)
 │       ├── tie_multirobot.png
-│       ├── tie_multirobot.gif
+│       ├── tie_multirobot.gif (optional, for hover effect)
 │       ├── iccss2021.png
-│       └── iccss2021.gif
+│       ├── iccss2021.gif      (optional, for hover effect)
+│       └── placeholder.svg
 ├── files/
 │   ├── CV_JunwenGu_EN.pdf  # English CV (to be added)
 │   └── CV_JunwenGu_CN.pdf  # Chinese CV (to be added)
@@ -131,4 +137,4 @@ Copy and modify the publication item template in `index.html`:
 
 ---
 
-Last updated: February 2026
+Last updated: March 2026

@@ -532,6 +532,52 @@ a.disabled {
     }
 }
 
+/* ==================== Language Switch ==================== */
+.lang-switch {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    font-size: 14px;
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.lang-switch .lang-option {
+    color: #1772d0;
+    text-decoration: none;
+    padding: 4px 8px;
+    transition: color 0.2s ease;
+    cursor: pointer;
+}
+
+.lang-switch .lang-option:hover {
+    color: #f09228;
+}
+
+.lang-switch .lang-option.active {
+    color: #222;
+    font-weight: 500;
+    cursor: default;
+}
+
+.lang-switch .lang-divider {
+    color: #ccc;
+    margin: 0 2px;
+}
+
+/* Language switch responsive styles */
+@media (max-width: 768px) {
+    .lang-switch {
+        top: 10px;
+        right: 10px;
+        font-size: 13px;
+    }
+
+    .lang-switch .lang-option {
+        padding: 4px 6px;
+    }
+}
+
 @media print {
     .container {
         max-width: 100%;
