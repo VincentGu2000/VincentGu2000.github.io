@@ -17,6 +17,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Initialize dropdown menus
     initDropdowns();
+    
+    // Initialize image lightbox
+    initLightbox();
 });
 
 /**
@@ -40,6 +43,16 @@ function initPublicationHovers() {
     };
     window.usim_stop = function() {
         const img = document.getElementById('usim_image');
+        if (img) img.style.opacity = "0";
+    };
+
+    // Biomimetics 2026 Paper
+    window.biomimetics_start = function() {
+        const img = document.getElementById('biomimetics_image');
+        if (img) img.style.opacity = "1";
+    };
+    window.biomimetics_stop = function() {
+        const img = document.getElementById('biomimetics_image');
         if (img) img.style.opacity = "0";
     };
 
@@ -166,6 +179,57 @@ function lazyLoadImages() {
         imageObserver.observe(img);
     });
 }
+
+/**
+ * Initialize image lightbox functionality
+ */
+function initLightbox() {
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    
+    // Add click event to all publication image wrappers
+    const imageWrappers = document.querySelectorAll('.image-wrapper');
+    imageWrappers.forEach(function(wrapper) {
+        wrapper.addEventListener('click', function(e) {
+            e.stopPropagation();
+            // Get the static image source (the main visible image)
+            const staticImg = wrapper.querySelector('.image-static');
+            if (staticImg && lightbox && lightboxImg) {
+                lightboxImg.src = staticImg.src;
+                lightbox.classList.add('active');
+                document.body.style.overflow = 'hidden';
+            }
+        });
+    });
+}
+
+/**
+ * Close the lightbox
+ */
+function closeLightbox() {
+    const lightbox = document.getElementById('lightbox');
+    if (lightbox) {
+        lightbox.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+}
+
+// Close lightbox when clicking outside the image
+document.addEventListener('click', function(e) {
+    const lightbox = document.getElementById('lightbox');
+    if (lightbox && lightbox.classList.contains('active')) {
+        if (e.target === lightbox) {
+            closeLightbox();
+        }
+    }
+});
+
+// Close lightbox with Escape key
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+        closeLightbox();
+    }
+});
 
 // Initialize lazy loading if supported
 if ('IntersectionObserver' in window) {
