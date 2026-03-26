@@ -6,7 +6,7 @@
 const translations = {
     en: {
         // Meta信息
-        meta_description: "Junwen Gu's personal homepage - Ph.D. student at Institute of Automation, CAS, focusing on underwater bionic robots.",
+        meta_description: "Junwen Gu (顾俊文) - Ph.D. candidate at Institute of Automation, CAS, focusing on biomimetic robotics, underwater robots, and Embodied AI.",
         meta_keywords: "Junwen Gu, 顾俊文, robotics, underwater robot, bionic robot, CAS",
         
         // 语言切换按钮
@@ -62,7 +62,7 @@ const translations = {
     },
     zh: {
         // Meta信息
-        meta_description: "顾俊文的个人主页 - 中科院自动化所博士生，专注于水下仿生机器人研究。",
+        meta_description: "顾俊文的个人主页 - 中科院自动化所博士生，专注于仿生机器人、水下机器人和具身智能研究。",
         meta_keywords: "Junwen Gu, 顾俊文, 机器人, 水下机器人, 仿生机器人, 中科院",
         
         // 语言切换按钮
