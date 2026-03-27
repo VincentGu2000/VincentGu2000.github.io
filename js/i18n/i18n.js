@@ -101,18 +101,6 @@ const I18n = (function() {
         // 更新页面标题
         document.title = langData.name || 'Junwen Gu | 顾俊文';
         
-        // 更新meta描述
-        const metaDesc = document.querySelector('meta[name="description"]');
-        if (metaDesc && langData.meta_description) {
-            metaDesc.setAttribute('content', langData.meta_description);
-        }
-        
-        // 更新meta关键词
-        const metaKeywords = document.querySelector('meta[name="keywords"]');
-        if (metaKeywords && langData.meta_keywords) {
-            metaKeywords.setAttribute('content', langData.meta_keywords);
-        }
-        
         // 更新html标签的lang属性
         document.documentElement.lang = currentLang;
     }

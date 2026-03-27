@@ -126,7 +126,7 @@ Copy and modify the publication item template in `index.html`:
 ## 🔗 Links
 
 - [Google Scholar](https://scholar.google.com/citations?user=RLmZMP8AAAAJ)
-- [LinkedIn](https://www.linkedin.com/in/俊文-顾-26261a390/)
+- [LinkedIn](https://www.linkedin.com/in/vincentgu2000/)
 - [ResearchGate](https://www.researchgate.net/profile/Junwen-Gu-3)
 - [ORCID](https://orcid.org/0000-0002-2185-9346)
 - [GitHub](https://github.com/VincentGu2000)

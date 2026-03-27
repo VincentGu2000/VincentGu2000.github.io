@@ -5,16 +5,12 @@
 
 const translations = {
     en: {
-        // Meta信息
-        meta_description: "Junwen Gu (顾俊文) - Ph.D. candidate at Institute of Automation, CAS, focusing on biomimetic robotics, underwater robots, and Embodied AI.",
-        meta_keywords: "Junwen Gu, 顾俊文, robotics, underwater robot, bionic robot, CAS",
-        
         // 语言切换按钮
         switch_lang: "中文",
         
         // 头部区域
         name: "Junwen Gu | 顾俊文",
-        bio_p1: `I am a Ph.D. candidate at the Key Laboratory of Cognition and Decision Intelligence for Complex Systems, <a href="http://english.ia.cas.cn/" target="_blank" rel="noopener noreferrer">Institute of Automation, Chinese Academy of Sciences (CASIA)</a>, where I have been advised by Prof. <a href="https://people.ucas.ac.cn/~wuzhengxing" target="_blank" rel="noopener noreferrer">Zhengxin Wu</a> since 2022. Previously, I received my B.Eng. degree in Automation from the <a href="https://en.ustb.edu.cn/" target="_blank" rel="noopener noreferrer">University of Science and Technology Beijing (USTB)</a>.`,
+        bio_p1: `I am a Ph.D. candidate at the Key Laboratory of Cognition and Decision Intelligence for Complex Systems, <a href="http://english.ia.cas.cn/" target="_blank" rel="noopener noreferrer">Institute of Automation, Chinese Academy of Sciences (CASIA)</a>, where I have been advised by Prof. <a href="https://people.ucas.ac.cn/~wuzhengxing" target="_blank" rel="noopener noreferrer">Zhengxing Wu</a> since 2022. Previously, I received my B.Eng. degree in Automation from the <a href="https://en.ustb.edu.cn/" target="_blank" rel="noopener noreferrer">University of Science and Technology Beijing (USTB)</a>.`,
         bio_p2: `My research primarily focuses on biomimetic robotics, where I strive to explore full-stack technologies and develop advanced robotic systems from a holistic perspective. I am currently exploring <strong>Embodied AI</strong> (RL and VLA) to enhance robotic autonomy and investigating how system architectures shape intelligence across broader domains.`,
         
         // 联系方式
@@ -61,10 +57,6 @@ const translations = {
         last_updated: "Last updated: March 2026"
     },
     zh: {
-        // Meta信息
-        meta_description: "顾俊文的个人主页 - 中科院自动化所博士生，专注于仿生机器人、水下机器人和具身智能研究。",
-        meta_keywords: "Junwen Gu, 顾俊文, 机器人, 水下机器人, 仿生机器人, 中科院",
-        
         // 语言切换按钮
         switch_lang: "EN",
         
@@ -77,7 +69,7 @@ const translations = {
         email: "邮箱",
         google_scholar: "谷歌学术",
         researchgate: "ResearchGate",
-        linkedin: "LinkedIn",
+        linkedin: "领英",
         cv: "简历",
         cv_english: "英文",
         cv_chinese: "中文",
