@@ -46,7 +46,7 @@ const translations = {
         
         // 论文摘要
         tro_abstract: "We developed a flexible fishtail actuated by artificial muscles. Through a combination of PDE-based modeling and DRL controller, the system achieves real-time deformation control with up to a 203% propulsion enhancement.",
-        biomimetics_abstract: "We integrated strain sensors on the fishtail and developed a framework using depthwise separable CNN and cross attention, achieving velocity and pose estimation with 18.8% trajectory error reduction.",
+        scis_abstract: "We integrated strain sensors on the fishtail and developed a framework using depthwise separable CNN and cross attention, achieving velocity and pose estimation with 18.8% trajectory error reduction.",
         usim_abstract: "We present USIM, a underwater VLA dataset across 20 diverse tasks, and U0, a VLA model achieving an 80% success rate in underwater tasks including inspection, navigation, and tracking.",
         cbs_abstract: "This work presents a flexible fishtail using SAC reinforcement learning to optimize turning agility. It enables adjustable compliance for enhanced fluid interactivity.",
         tie_abstract: "We proposed a decentralized cooperative pursuit strategy for multi-robotic fish using curriculum learning. The algorithm enables adaptive coordination in complex underwater environments.",
@@ -62,7 +62,7 @@ const translations = {
         
         // 头部区域
         name: "顾俊文 | Junwen Gu",
-        bio_p1: `我是<a href="http://english.ia.cas.cn/" target="_blank" rel="noopener noreferrer">中国科学院自动化研究所</a>复杂系统认知与决策重点实验室的博士研究生，自2022年起在<a href="https://people.ucas.ac.cn/~wuzhengxing" target="_blank" rel="noopener noreferrer">吴正兴教授</a>指导下进行学习。此前，我获得了<a href="https://en.ustb.edu.cn/" target="_blank" rel="noopener noreferrer">北京科技大学</a>自动化（卓越计划）专业的工学学士学位。`,
+        bio_p1: `我是<a href="http://english.ia.cas.cn/" target="_blank" rel="noopener noreferrer">中国科学院自动化研究所</a>复杂系统认知与决策重点实验室的博士研究生，自2022年起在<a href="https://people.ucas.ac.cn/~wuzhengxing" target="_blank" rel="noopener noreferrer">吴正兴研究员</a>指导下进行学习。此前，我获得了<a href="https://en.ustb.edu.cn/" target="_blank" rel="noopener noreferrer">北京科技大学</a>自动化（卓越计划）专业的工学学士学位。`,
         bio_p2: `我的研究主要聚焦于仿生机器人领域，包括仿生水下机器人及水下航行器的系统设计与智能控制。我致力于探索机器人软硬件及智能的全栈技术并开发先进的机器人系统。目前，我正在探索<strong>具身智能</strong>（强化学习和视觉-语言-动作模型）以增强机器人的运动能力和自主性，并研究系统架构如何塑造更广泛领域的智能。`,
         
         // 联系方式
@@ -99,7 +99,7 @@ const translations = {
         // 论文摘要
         tro_abstract: "我们开发了一种由人工肌肉驱动的柔性鱼尾。通过基于偏微分方程的建模和深度强化学习控制器的结合，该系统实现了实时变形控制，推进力提升高达203%。",
         usim_abstract: "我们提出了USIM，一个涵盖20种不同任务的水下视觉-语言-动作数据集，以及多模态VLA模型U0，在水下任务（包括巡检、导航和跟踪）中达到80%的成功率。",
-        biomimetics_abstract: "我们将应变传感器集成到柔性鱼尾上，并开发了基于深度可分离卷积和跨模态注意力的多模态深度时序框架，实现了鲁棒的速度和位姿估计，轨迹误差降低18.8%。",
+        scis_abstract: "我们将应变传感器集成到柔性鱼尾上，并开发了基于深度可分离卷积和跨模态注意力的多模态深度时序框架，实现了鲁棒的速度和位姿估计，轨迹误差降低18.8%。",
         cbs_abstract: "本工作提出了一种使用SAC强化学习优化转向敏捷性的柔性鱼尾。它实现了可调节的柔顺性，以增强与流体的交互能力。",
         tie_abstract: "我们提出了一种使用课程学习的多机器鱼分散式协同追捕策略。该算法能够在复杂的水下环境中实现自适应协调。",
         iccss_abstract: "我们为线性抛物型偏微分方程系统开发了PDE观测器和量化反馈补偿器。该框架确保了指数稳定性，通过基于李雅普诺夫的证明和数值仿真进行了验证。",

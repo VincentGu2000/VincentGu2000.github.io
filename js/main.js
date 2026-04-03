@@ -46,13 +46,13 @@ function initPublicationHovers() {
         if (img) img.style.opacity = "0";
     };
 
-    // Biomimetics 2026 Paper
-    window.biomimetics_start = function() {
-        const img = document.getElementById('biomimetics_image');
+    // SCIS 2026 Paper
+    window.scis_start = function() {
+        const img = document.getElementById('scis_image');
         if (img) img.style.opacity = "1";
     };
-    window.biomimetics_stop = function() {
-        const img = document.getElementById('biomimetics_image');
+    window.scis_stop = function() {
+        const img = document.getElementById('scis_image');
         if (img) img.style.opacity = "0";
     };
 
